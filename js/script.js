@@ -10,9 +10,4 @@ $(function(){
         $(this).removeClass('off').addClass("on").siblings('.on').removeClass('on').addClass('off');
     });
 });
-$(function(){
-    $(".on").click(function(){
-        $(this).removeClass('on').addClass("off").siblings('.off').removeClass('off').addClass('on');
-    });
-});
 //hot, iced버튼 토글
